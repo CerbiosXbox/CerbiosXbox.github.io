@@ -163,11 +163,6 @@ html {
     font-size: 16px;
 }
 
-button.accept-policy {
-    font-size: 1rem;
-    line-height: inherit;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
 }
