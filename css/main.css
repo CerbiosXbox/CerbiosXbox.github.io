@@ -174,3 +174,7 @@ body {
 .bg-extra-dark {
     background-color: #202020;
 }
+
+.img-fluid {
+    max-width: 100px;
+}
