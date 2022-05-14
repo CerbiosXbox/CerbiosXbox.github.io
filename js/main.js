@@ -4,8 +4,8 @@
     $.getJSON(titlesJsonPath, function( data ) {
         $.each( data, function( key, val ) {
             
-            $(".compat-container").append(val['name'] + '</br>');
-            $(".compat-container").append(val['title_id'] + '</br>');
+            var imageHtml = '<img class="img-fluid lazy" title="' + val['name'] + '" src="/titles/' + val['title_id'] + '_front.jpg" style="">';
+            $(".compat-container").append(imageHtml);           
 
         });
     });
