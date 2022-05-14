@@ -2,7 +2,7 @@
 
     var index = 0;
 
-    var titlesJsonPath = '/data/titles.json';
+    var titlesJsonPath = '/data/releases.json';
     $.getJSON(titlesJsonPath, function( data ) {
         $.each( data, function( key, val ) {
             
@@ -13,9 +13,9 @@
             html += '</div>'
 
             if ((index & 1) == 0) {
-                html += '<div class="fill-working card-body text-center py-1 my-0"><small><strong>Working</strong></small></div>'
+                html += '<div class=".bg-success card-body text-center py-1 my-0"><small><strong>' + val['region'] + '<br/>Working</strong></small></div>'
             } else {
-                html += '<div class="fill-unknown card-body text-center py-1 my-0"><small><strong>Unknown</strong></small></div>'
+                html += '<div class=".bg-secondary card-body text-center py-1 my-0"><small><strong>' + val['region'] + '<br/>Unknown</strong></small></div>'
             }
 
             html += '</div>'
