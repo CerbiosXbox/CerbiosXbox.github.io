@@ -175,6 +175,25 @@ body {
     background-color: #202020;
 }
 
-.img-fluid {
-    max-width: 100px;
+.title-card {
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.title-card-container {
+    width: 8rem;
+    background-color: #373737;
+}
+
+.title-card-image-container {
+    background-image:url('/images/front_default.jpg');
+    background-size: 8rem 11rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 11rem;
+}
+
+.fill-playable {
+    background-color: #1B998B;
 }
