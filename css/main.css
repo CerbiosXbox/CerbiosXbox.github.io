@@ -194,6 +194,10 @@ body {
     min-height: 11rem;
 }
 
-.fill-playable {
-    background-color: #1B998B;
+.fill-working {
+    background-color: #4CAF50;
+}
+
+.fill-unknown {
+    background-color: #606060;
 }

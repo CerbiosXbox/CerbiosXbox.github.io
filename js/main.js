@@ -11,7 +11,7 @@
             html += '<img class="img-fluid lazy" title="' + val['name'] + '" src="/titles/' + val['title_id'] + '_front.jpg" style=""><br/>';
          
             html += '</div>'
-            html += '<div class="fill-playable card-body text-center py-1 my-0"><small><strong>Playable</strong></small></div>'
+            html += '<div class="fill-working card-body text-center py-1 my-0"><small><strong>Working</strong></small></div>'
             html += '</div>'
             html += '</div>'
             $("#results").append(html);           
