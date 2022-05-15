@@ -13,9 +13,9 @@
             html += '</div>'
 
             if ((index & 1) == 0) {
-                html += '<div class="bg-success card-body text-center py-1 my-0"><small><strong>' + val['region'] + '<br/>Working</strong></small></div>'
+                html += '<div class="bg-success card-body text-center py-1 my-0"><small><strong>' + val['title_id'] + '<br/>' + val['region'] + '<br/>Working</strong></small></div>'
             } else {
-                html += '<div class="bg-secondary card-body text-center py-1 my-0"><small><strong>' + val['region'] + '<br/>Unknown</strong></small></div>'
+                html += '<div class="bg-secondary card-body text-center py-1 my-0"><small><strong>' + val['title_id'] + '<br/>' + val['region'] + '<br/>Unknown</strong></small></div>'
             }
 
             html += '</div>'
